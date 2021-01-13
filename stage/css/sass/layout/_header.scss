@@ -1,4 +1,4 @@
- 
+ .header{
  .nav
 {
    // display:flex;
@@ -133,3 +133,19 @@ padding-left: 40px;
   
  }
 }
+.logo{
+
+}
+.newlist{
+  li {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 40px;
+    a{
+      color: #212121;
+    }
+
+  };
+}
+
+ }
