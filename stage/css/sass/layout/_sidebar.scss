@@ -1,0 +1,128 @@
+.carousel-control-next-icon
+{
+    display: none;
+}
+.carousel-control-prev
+{
+    display: none;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    top: 10px;
+    position: absolute;
+    border:2px solid #84c639;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    background-color:#84c639 ;
+    
+}
+.carousel-indicators li:nth-of-type(2)
+{
+   margin-left: 35px;
+}
+.carousel-indicators li:nth-of-type(3)
+{
+   margin-left:70px;
+}
+
+.sidebar-list{
+    li:first-of-type{
+        position: relative;
+        &:before
+        {
+           
+            content: '';
+            position: absolute;
+            width: 101%;
+            color: #b58f62;
+            border: .5px solid #b58f62;
+            top: -2px;
+            left: -2px;
+        }}
+        li:not(:first-of-type)
+        {
+            position: relative;
+
+            &:before
+            {
+
+            content: '';
+            top:3px;
+            left: -3px;
+
+            position: absolute;
+           width: 100%;
+           color: #b58f62;
+           border: .5px dotted #c9ced3;
+        }
+        }
+        ul: {
+            margin-left: 10px;
+            
+        }
+        li {
+
+padding:10px;
+padding-left: 40px;
+background-color: #f5f5f5;
+text-align: left;
+justify-content: center;
+
+        }
+
+       
+   
+
+        
+    }
+    @media(min-width:992px)
+    {
+     .col-lg-2
+     {
+
+margin-right:-22px;
+     }
+    }
+
+.caro{
+    position: relative;
+    .sp{
+        position: absolute;
+         top:30px;
+        right: 40px;
+        font-size: 40px;
+        color: #fff;
+       
+        
+    }
+    .b{
+position: absolute;
+top:250px;
+right: 40px;
+font-size: 17px;
+font-weight: bold;
+border: none;
+background-color: #84c639;
+padding: 10px;
+padding-left: 50px;
+padding-right: 50px;
+color: #fff;
+    }
+    .b3{
+        position: absolute;
+        top:250px;
+        right: 30px;
+        font-size: 17px;
+        font-weight: bold;
+        border: none;
+        background-color: #84c639;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: #fff; 
+    }
+
+}

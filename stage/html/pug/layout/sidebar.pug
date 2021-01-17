@@ -1,0 +1,37 @@
+.row
+    .col-lg-2.sidebar-list
+        ul.list-unstyled
+            li branded food
+            li households
+            li vegiies,fruits
+            li kitchen
+            li short codes
+            li beverages
+            li pet food
+            li frozen foods
+            li bread&bakery
+    #carouselExampleIndicators.carousel.slide(data-bs-ride="carousel").col-lg-10.caro
+        ol.carousel-indicators
+            li.active(data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0")
+            li(data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1")
+            li(data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2")
+        .carousel-inner
+            .carousel-item.active
+                img.d-block.w-100(src="imgs/one.jpg" alt="...")
+                span.sp make<br> your food<br> with spicy
+                button.b shop now   
+            .carousel-item
+                img.d-block.w-100(src="imgs/two.jpg" alt="...")
+                span.sp make<br> your food<br> with spicy
+                button.b shop now
+            .carousel-item
+                img.d-block.w-100(src="imgs/three.jpg" alt="..." width="933.5 px" height="291.72 px" )
+                span.sp  up to<br>  &nbsp; 50%  <br> &nbsp;&nbsp;&nbsp;&nbsp;off
+                button.b3 shop now
+        a.carousel-control-prev(href="#carouselExampleIndicators" role="button" data-bs-slide="prev")
+            span.carousel-control-prev-icon(aria-hidden="true")
+            span.visually-hidden Previous
+        a.carousel-control-next(href="#carouselExampleIndicators" role="button" data-bs-slide="next")
+            span.carousel-control-next-icon(aria-hidden="true")
+            span.visually-hidden Next
+    
