@@ -8,9 +8,26 @@
 
     }
  }*/
-  
+  .row1{
+    @media (min-width: 768px)
+    {
+        .sp1, .sp2,.sp3,.sp4,.sp5,.sp6,.sp7,.sp8{
+            font-size: 20px !important;
+        }
+    }
+    @media(max-width:767px){
+        .sp1, .sp2,.sp4 {
+        font-size: 15 !important;
+        right: 120px !important;
+        }
+        .sp3,.sp5,.sp6,.sp7,.sp8{
+            font-size: 25px !important;
+        }
+    }
+  }
     .product1{
         position: relative;
+        margin-bottom: 20px;
       //  margin-right: 20px;
 
     .sp1
@@ -40,6 +57,7 @@
 }
 .product2{
     position: relative;
+    margin-bottom: 20px;
   
     .sp3
     {
@@ -72,7 +90,8 @@
     }
 }
 .product3
-{position: relative
+{position: relative;
+    margin-bottom: 20px;
     ;
     .sp6
     {
@@ -98,3 +117,107 @@
     }
 
 }
+.hot-offers{
+    margin-top: 60px;
+   
+    @media (min-width: 768px)
+    {
+    .tag{
+right: 120px !important;
+    }
+}
+@media(min-width:992px){
+    .tag{
+        right: 50px !important;
+            } 
+}
+
+@media (max-width: 575px)
+{
+    .tag{
+       left: 30px !important;
+    }
+    .offer{
+        margin-left: 50px;
+    }
+}
+.offer{
+    padding: 3px;
+    position: relative;
+    margin-bottom: 10px;
+  /*  &:before
+    {
+        content: '';
+        top:-5pxpx;
+        left: -5px;
+        position: absolute;
+        border: 1px solid #f00;
+    }*/
+    position: relative;
+    .origin{
+        
+        padding: 40px;
+        
+        padding-bottom:120px ;
+        border-width: 4px;
+        border-color: #bebebe;
+        
+        
+        border-style :double;
+        
+        border-spacing: 15px;
+       // position: relative;
+      
+    
+    
+    
+
+ 
+    }
+    .can1{
+        position: absolute;
+        font-size: 18px;
+        bottom: 45px;
+        left: 10px;
+        font-weight: 400;
+        .cansp 
+        {
+            font-size: 18px;
+            float: left;
+            padding-top: 3px;
+            font-weight: 500;
+            span{
+                font-weight: 400;
+            }
+        }
+
+
+    }
+    .can2{
+        position: absolute;
+        font-size: 18px;
+        background-color: #f00;
+        color: #fff;
+        bottom: 20px;
+        left: 30px;
+        padding: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border: none;
+    }
+    .tag{
+        position: absolute;
+         
+        top:-3px;
+       
+
+    }
+    .off{
+        position: absolute;
+        left: 5px;
+        top:5px;
+    }
+
+
+
+}}
