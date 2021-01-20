@@ -8,6 +8,7 @@
 
     }
  }*/
+ .discount{
   .row1{
     @media (min-width: 768px)
     {
@@ -117,107 +118,229 @@
     }
 
 }
+margin-top: 80px;}
+.fatheroff{
+    h1{
+         position: relative;
+         font-weight: 450;
+         &:before{
+             position: absolute;
+             content: '';
+             width: 80px;
+             top:60px;
+        margin: 0px 50px;
+             
+              
+             border: 1px solid #f00;
+         }
+
+     }
 .hot-offers{
-    margin-top: 60px;
    
-    @media (min-width: 768px)
-    {
-    .tag{
-right: 120px !important;
-    }
-}
-@media(min-width:992px){
-    .tag{
-        right: 50px !important;
-            } 
-}
-
-@media (max-width: 575px)
-{
-    .tag{
-       left: 30px !important;
-    }
-    .offer{
-        margin-left: 50px;
-    }
-}
 .offer{
-    padding: 3px;
+    border: 4px double #bebebe;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 40px;
     position: relative;
-    margin-bottom: 10px;
-  /*  &:before
-    {
-        content: '';
-        top:-5pxpx;
-        left: -5px;
-        position: absolute;
-        border: 1px solid #f00;
-    }*/
-    position: relative;
-    .origin{
-        
-        padding: 40px;
-        
-        padding-bottom:120px ;
-        border-width: 4px;
-        border-color: #bebebe;
-        
-        
-        border-style :double;
-        
-        border-spacing: 15px;
-       // position: relative;
-      
-    
-    
-    
+}
+.cansp
+{
+    font-weight: 500;
+    span{ font-weight: 400;}
+}
+.origin{
+    padding-bottom: 70px;
+}
+.can2{
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tag{
+    position: absolute;
+    top:-10px;
+    left: 1px;
 
- 
-    }
-    .can1{
-        position: absolute;
-        font-size: 18px;
-        bottom: 45px;
-        left: 10px;
-        font-weight: 400;
-        .cansp 
-        {
-            font-size: 18px;
-            float: left;
-            padding-top: 3px;
-            font-weight: 500;
-            span{
-                font-weight: 400;
-            }
+}
+.off{
+    position: absolute;
+    top:-3px;
+    left: -3px;
+
+}
+  
+
+margin-top: 90px;}}
+.top-products
+{
+    @media(max-width: 991px)
+    {
+        .topp{
+            background-color: #fff !important;
+        }
+        ul{
+            margin-bottom: 20px;
+            border: 10px solid #f5f5f5;
+             
+            width: 60%;
+            margin: 0 auto;
+        }
+        .girl{
+            padding: 15px;
+            border: 10px solid #f5f5f5;
+            margin: 0 auto;
+            width: 60%;
+        }
+        .first{
+            border: 10px solid #f5f5f5;
+            width: 60%;
+            margin: 0 auto;
+            .img1{
+                button{
+                    top:30px !important;
+                    right: 30px !important;
+
+                }
+
+
         }
 
+    }
+        .img2{
+            .ofsp{
+                left: 40px !important;
+                bottom: 20px !important;
 
-    }
-    .can2{
-        position: absolute;
-        font-size: 18px;
-        background-color: #f00;
-        color: #fff;
-        bottom: 20px;
-        left: 30px;
-        padding: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
-        border: none;
-    }
-    .tag{
-        position: absolute;
-         
-        top:-3px;
+            }
+        }
+        .second{
+            width: 60%;
+            border: 10px solid #f5f5f5;
+            margin: 0 auto;
+            padding: 10px;
+            .img3,.img4{
+                margin-bottom: 10px;
+            }
+        }
+        .par{
+            font-size: 17px !important;
+          left:-150px !important;
+          margin-left: 50px !important;
+          bottom: -100px !important;
+          
+        white-space:  nowrap !important;
+        }
        
 
     }
-    .off{
-        position: absolute;
-        left: 5px;
-        top:5px;
+    margin-top: 60px;
+
+   
+   
+    h1{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            border: 1px solid #f00;
+            width: 100px;
+            margin: 0 50px;
+            top:70px
+        }
+
     }
+    .topp{
+        background-color:#f5f5f5 ;
+        margin-top: 100px;
 
+    }
+    ul{
+        background-color: #fff;
+        li{
+            margin: 10px;
+            i{
+                color: #84C639;
+                margin: 12px;
+                font-size: 13px;
+                font-weight: 600;
+            } 
+        }
+        li:first-of-type{
+            padding-top: 20px;
+        }
+        li:last-of-type{
+            padding-bottom: 20px;
+        }
 
+        
+    }
+    .top{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .img1,.img3
+        {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .img1{
+            button{
+                position: absolute;
+                top:15px;
+                right: 10px;
+                background-color: #84C639;
+                border: none;
+                padding-left: 20px;
+                padding-right: 20px;
+                color: #fff;
+                font-weight: 600;
+                font-size: 18px;
+                
+            }
+           
+        }
+        .img2{
+         
+            position: relative;
+            text-align: center;
+            
+            .ofsp{
+                padding-top: 10px;
+                font-size: 22px;
+                font-weight: bold;
+                position: absolute;
+                background-color: #f00;
+                color: #fff;
+                width:90px;
+                height: 90px;
+                bottom: 5px;
+                left: 5px;
+                border-radius: 50%;
+            }
 
-}}
+        }
+        .img4{
+            position: relative;
+            .par{
+                position: absolute;
+                left: -300px;
+                bottom: -120px;
+                font-size: 20px;
+                 
+             }
+            .spec{
+                 position: absolute;
+                 bottom: -20px;
+                 right: -60px;
+             }
+        }
+        
+        
+
+    }
+}
