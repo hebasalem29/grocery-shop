@@ -1,20 +1,24 @@
  .header{
  .nav
 {
+  position: fixed;
    // display:flex;
     background-color: #333;
     color: #fff;
-    position: relative;
+    //position: relative;
     top: -10px;
     height: 68px;
+    z-index: 99999;
+    width: 100%;
+    
    
     
     .navbar
     {
       margin-right: 50px;
+     // position: relative;
     }
     
-   
     .green
     {
         background-color: #84c639;
@@ -73,7 +77,9 @@
     .info
     {
 background-color:#fa1818 ;
-
+a{
+color: #fff;
+}
  
 font-size: 25px;
 padding: 11.5px;
@@ -147,5 +153,9 @@ padding-left: 40px;
 
   };
 }
+.ss{
+  margin-top: 70px;
+}
+
 
  }
