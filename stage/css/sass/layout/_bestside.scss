@@ -1,0 +1,182 @@
+.bestall{
+.bestimg{
+    position: relative;
+    text-align: center;
+    
+    
+    .divbest{
+        background-color: #fff;
+        color: #f00;
+        position: absolute;
+ 
+ top: 40%;
+ white-space:nowrap;
+ width:50%;
+  
+left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+ 
+
+    }}
+    .divall{
+        margin-top: 120px;
+        @media(max-width:992px ){
+            display: block;
+            text-align: center;
+        
+        }
+        display: flex;
+        .diva {
+            margin-right: 10px;
+    .divb{
+        h4{
+            margin-left: 5px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        ol{
+            margin-left: -10px !important;
+            li{
+                margin-bottom: 10px;
+                color: #999;
+            }
+        }
+    }
+             
+       }
+    }
+    .divd{
+      //  display: flex;
+        .offer{margin: 10px;}
+        margin-left: 20px;
+    }
+    .fatheroff .hot-offers .origin{
+      
+padding-bottom: 0px !important;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin: 0 auto !important;
+ 
+    }
+    .fatheroff .hot-offers .can2{
+        margin-left: 20px;
+        width: 80%;
+        white-space: nowrap;
+    }
+    /*.fatheroff .hot-offers .can2 {
+        background-color: #f00;
+        border: none;
+        color: #fff;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+       // margin-left: 20px;
+    }*/
+    .fatheroff .hot-offers .can1{
+       margin-top: 10px;
+    }
+    .fatheroff .hot-offers{
+        //margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .fatheroff h3{
+        margin-top: 20px !important;
+    }
+    .fatheroff h2{
+        margin-top: 40px;
+        position: relative;
+        padding-bottom: 60px;
+        &:before{
+            content: '';
+            position: absolute;
+            border: 1px solid #f00;
+            top:70px;
+            width: 7%;
+            margin: 0 auto !important;
+            left: 0;
+            right: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    }
+
+    
+}
+
+    
+ 
+    
+
+                 .bestall .fatheroff .hot-offers .can2
+                {
+                @media(max-width:250px)
+                    {
+                         
+                         padding-left: 0px ; 
+                      
+                          padding-right: 0px  ;
+                    }
+                }
+                .bestall .fatheroff .hot-offers .can1
+                {
+                @media(max-width:250px)
+                    { font-size: 12px;}
+                }
+                
+                   
+                             @media(max-width:992px){
+                                .bestall .fatheroff .hot-offers .origin{
+                                     padding-left: 50px;
+                                     padding-right: 0px;
+                                 }
+                                 .bestall .fatheroff .hot-offers .offer{
+                                     width: 70%;
+                                 }
+                                 .bestall .fatheroff .hot-offers .offer .can2{
+                                     margin-bottom: 30px;
+                                 }
+                             }
+                             .col-12{
+                                @media(max-width: 700px){
+                                width: 60%;
+                                text-align: center;
+                                margin: 0 auto;
+                                margin-bottom: 20px;
+                                .bestall .fatheroff .hot-offers .origin{
+                                max-width: 100%;
+                                height: auto;
+                            }}
+        
+                                @media(max-width:500px)
+                                {
+                                    width: 100%;
+
+                                    
+
+                                   
+                                }
+
+                                   
+                    
+                                     }
+                                     @media(max-width:599px)
+                                     {
+                                        
+     
+                                         .bestall .fatheroff .hot-offers .origin{
+                                            max-width: 100%;
+                                             height: auto;
+                                         }
+     
+                                        
+                                     }
+                           
+        
+        
+    
+
+
