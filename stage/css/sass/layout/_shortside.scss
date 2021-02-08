@@ -313,6 +313,23 @@
        margin-bottom: 40PX;
        margin-top: 40px;
    }
+   thead{
+       th{
+           color: #777;
+       }
+   }
+   tbody{
+       .no1{
+           color: #777;
+       }
+       .no2{
+           color: #c7254e;
+           background-color: #f9f2f4;
+           border-radius: 4px;
+           padding: 2px 4px;
+           font-size: 90%;
+       }
+   }
    .bad{
     p{
         color: #777;
@@ -342,4 +359,111 @@
     background-color: #8bc34a;
 }
 
- 
+ .wells{
+     h4{
+         padding-top: 50px;
+         margin-bottom: 30px;
+         color: #f00;
+     }
+     .well{
+         margin-bottom: 30px;
+         font-size: 15px;
+         background-color: #f5f5f5;
+         border-radius: 4px;
+         border:1px solid #e3e3e3;
+         color: #000;
+         padding: 20px;
+         width: 90%;
+         
+     }
+ }
+ .order{
+     h4{
+         padding-top: 30px;
+         margin-bottom: 25px;
+         color: #f00;
+
+     }
+     ol{
+         li{
+             font-size: 16px;
+             margin-bottom: 10px;
+
+         }
+     }
+ }
+ .forms{
+      .sg{
+          
+          padding-left: 10px;
+      }
+    .sg1{
+           
+          padding:2px 10px;
+          
+      }
+      .input-group-addon2{
+          height: 30px;
+          border: 1px solid #ccc;
+          
+           padding: 5px;
+           border: 1px solid #ccc;
+           background-color: #eee;
+      }
+      .input-group-addon3{
+        height: 26px !important;
+        border: 1px solid #ccc;
+        border: 1px solid #ccc;
+        
+         padding: 5px;
+         background-color: #eee;
+    }
+      .sg2{
+          padding: 2px 10px;
+      }
+      .sa{
+          
+          padding-left: 10px;
+      }
+      .sa1{
+          padding: 0px 8px;
+          height: 30px;
+      }
+      .sa2{
+          padding: 0px 8px;
+      }
+       .btn1{
+           left: 1px;
+           border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+           border: 1px solid #ccc;
+           border-right: 0;
+           border-radius: 0;
+           &:hover{
+               background-color: #ccc;
+           }
+
+       }
+       .input-group-addon{
+           border: 1px solid #ccc;
+          // width: 10%;
+           height: 38px;
+           padding: 5px;
+           background-color: #eee;
+    border: 1px solid #ccc
+       }
+
+       .btn2{
+           left: 1px;
+        border: 1px solid #ccc;
+        border-left: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius:0;
+        border-radius: 0;
+
+        &:hover{
+            background-color: #ccc;
+        }
+
+       }
+ }
