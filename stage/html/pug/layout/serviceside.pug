@@ -12,15 +12,43 @@
     
     .col-lg-2.sidebar-list.col-md-2
         ul.list-unstyled
-            li branded food
-            li households
-            li vegiies,fruits
-            li kitchen
-            li short codes
-            li beverages
-            li pet food
-            li frozen foods
-            li bread&bakery
+            li.fi 
+                a(href="bestdeals.html") branded food
+            li.fi 
+                a(href="house.html") households
+          
+            li.dropdown.fi
+                    | vegiies,fruits
+                    button.dropdown-toggle.dropdown-toggle.btn.btn-secondary#dropdownMenuButton( data-bs-toggle="dropdown" aria-expanded="false" type="button")
+                    ul.list-unstyled.dropdown-menu(aria-labelledby="dropdownMenuButton")
+                        li.ui
+                            a.ch.dropdown-item(href="veg.html") VEGETABLES
+                        li.ui
+                            a.ch.dropdown-item(href="veg.html") fruits
+            li.fi
+                a(href="kitchen.html") kitchen
+            li.fi
+                a(href="short.html") short codes
+            li.dropdown.fi
+                    | beverages
+                    button.dropdown-toggle.dropdown-toggle.btn.btn-secondary#dropdownMenuButton( data-bs-toggle="dropdown" aria-expanded="false" type="button")
+                    ul.list-unstyled.dropdown-menu(aria-labelledby="dropdownMenuButton")
+                        li.ui
+                            a.ch.dropdown-item(href="soft.html") soft drinks
+                        li.ui
+                            a.ch.dropdown-item(href="soft.html") juice
+            li.fi
+                a(href="pet.html")  pet food
+                li.dropdown.fi
+                    | frozen foods
+                    button.dropdown-toggle.dropdown-toggle.btn.btn-secondary#dropdownMenuButton( data-bs-toggle="dropdown" aria-expanded="false" type="button")
+                    ul.list-unstyled.dropdown-menu(aria-labelledby="dropdownMenuButton")
+                        li.ui
+                            a.ch.dropdown-item(href="frozen.html") frozen snakes
+                        li.ui
+                            a.ch.dropdown-item(href="frozen.html") frozen nonveg
+            li.fi 
+                a(href="bread.html") bread&bakery
     .col-lg-10.col-md-10.services
         h1.text-center services
         .container

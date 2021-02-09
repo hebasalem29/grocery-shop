@@ -26,9 +26,18 @@
                             a.ch.dropdown-item(href="soft.html") soft drinks
                         li.ui
                             a.ch.dropdown-item(href="soft.html") juice
-            li.fi pet food
-            li.fi frozen foods
-            li.fi bread&bakery
+            li.fi
+                a(href="pet.html")  pet food
+                li.dropdown.fi
+                    | frozen foods
+                    button.dropdown-toggle.dropdown-toggle.btn.btn-secondary#dropdownMenuButton( data-bs-toggle="dropdown" aria-expanded="false" type="button")
+                    ul.list-unstyled.dropdown-menu(aria-labelledby="dropdownMenuButton")
+                        li.ui
+                            a.ch.dropdown-item(href="frozen.html") frozen snakes
+                        li.ui
+                            a.ch.dropdown-item(href="frozen.html") frozen nonveg
+            li.fi 
+                a(href="bread.html") bread&bakery
     #carouselExampleIndicators.carousel.slide(data-bs-ride="carousel").col-lg-10.caro
         ol.carousel-indicators
             li.active(data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0")
