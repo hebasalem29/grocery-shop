@@ -18,7 +18,14 @@
                 a(href="kitchen.html") kitchen
             li.fi
                 a(href="short.html") short codes
-            li.fi beverages
+            li.dropdown.fi
+                    | beverages
+                    button.dropdown-toggle.dropdown-toggle.btn.btn-secondary#dropdownMenuButton( data-bs-toggle="dropdown" aria-expanded="false" type="button")
+                    ul.list-unstyled.dropdown-menu(aria-labelledby="dropdownMenuButton")
+                        li.ui
+                            a.ch.dropdown-item(href="soft.html") soft drinks
+                        li.ui
+                            a.ch.dropdown-item(href="soft.html") juice
             li.fi pet food
             li.fi frozen foods
             li.fi bread&bakery
