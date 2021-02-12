@@ -19,4 +19,24 @@ $(".faq1").on('click',function()
 
 
 });
+
+$(window).on("scroll",function()
+{
+    if($(window).scrollTop()>=400){
+        
+        $(".ii").fadeIn();
+    }
+    else{
+        $(".ii").fadeOut();
+    }
+  
+});
+$(".ii").on('click',function()
+{
+    $("html ,body").stop().animate(
+        {
+            scrollTop:0
+        }
+    )
+})
 });
