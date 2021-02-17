@@ -99,10 +99,11 @@ $(".jsbut1").on('click',function()
         ele2.parent(".offer").append('<div class="jsdiv2"></div>');
          
         $(this).siblings(".jsdiv2").prepend('<div class="divme"></div>');
+        $(".jsdiv2").fadeIn();
         
         $(".divme").append('<ul> <li> <p>'+ licontent+'</p></li> <li> <input class="in1" type="text" value='+ count1 +'</li><li> <button class="odbut">x</button></li> <li> <span>'+ dicound +"$"+'</span></li></li></ul> ');
         $(".divme").append('<p class="odp"> discount:$1.00</p>');
-       
+        
          $(".odbut").on('click',function()
      {
            $(this).parent().parent().parent(".divme").remove();
@@ -156,6 +157,7 @@ $(".jsbut2").on('click',function()
         ele2.parent(".offer").append('<div class="jsdiv2"></div>');
          
         $(this).siblings(".jsdiv2").prepend('<div class="divme"></div>');
+        $(".jsdiv2").fadeIn();
         
         $(".divme").append('<ul> <li> <p>'+ licontent+'</p></li> <li> <input class="in2" type="text" value='+ count1 +'</li><li> <button class="odbut">x</button></li> <li> <span>'+ dicound +"$"+'</span></li></li></ul> ');
         $(".divme").append('<p class="odp"> discount:$1.00</p>');
@@ -211,6 +213,7 @@ $(".jsbut3").on('click',function()
         ele2.parent(".offer").append('<div class="jsdiv2"></div>');
          
         $(this).siblings(".jsdiv2").prepend('<div class="divme"></div>');
+        $(".jsdiv2").fadeIn();
         
         $(".divme").append('<ul> <li> <p>'+ licontent+'</p></li> <li> <input class="in3" type="text" value='+ count3 +'</li><li> <button class="odbut">x</button></li> <li> <span>'+ dicound +"$"+'</span></li></li></ul> ');
         $(".divme").append('<p class="odp"> discount:$1.00</p>');
