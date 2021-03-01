@@ -39,19 +39,56 @@ $(".ii").on('click',function()
         }
     )
 })
+
+var yy=0;
+var img1=" ";
 $(".cartjs").on('click',function()
 {
-    $(".jsdiv").toggle();
+    
+    yy++;
+    if(count==0&&count1==0&&count2==0&&count3==0)
+    { 
+
+    $(".jsdiv").fadeToggle();
+   
+    }
+    else 
+    {
+        $(".jsdiv").fadeOut();
+
+        $(".jsdiv2").fadeIn();
+    }
+    
+  
 });
+  
+  
+ 
+
+
+   
+
+ 
 var count= 0;
+var y;
+ 
 $(".jsbut").on('click',function()
 {
     count++;
+    img1=$(this).parent().children(".origin").attr("src");
      
     var licontent=$(this).siblings("p").children(".od").text();
     
     var tryit =$(this).siblings("p").children(".se").text().replace('$','');
     var dicound=parseInt(tryit)-1;
+    var x= localStorage.setItem("myitem",img1);
+    var y=localStorage.setItem("kk",count.toString());
+    console.log(y);
+ 
+    console.log("kkk"+y);
+       
+    
+    b=localStorage.getItem("myitem");
    
     $(".jsdiv2").fadeIn();
    /* if(! ($(".jsdiv2").children(".divme").children("ul").hasClass("uu"))&&count>0)
@@ -62,9 +99,12 @@ $(".jsbut").on('click',function()
     $(".divme").append('<p class="odp1"> discount:$1.00</p>');
     }*/
    
+  
 //console.log(count);
     if(count==1 )
     {
+        var x= localStorage.setItem("myitem",img1);
+       
      
     $(".divme").append('<ul class="uu"> <li> <p>'+ licontent+'</p></li> <li> <input class="in1" type="text" value='+ count +'</li><li> <button class="odbut">x</button></li> <li> <span>'+ dicound +"$"+'</span></li></li></ul> ');
     $(".divme").append('<p class="odp1"> discount:$1.00</p>');
@@ -132,11 +172,17 @@ var count1= 0;
 $(".jsbut1").on('click',function()
 {
     count1++;
+    img1=$(this).parent().children(".origin").attr("src");
     
     var licontent=$(this).siblings("p").children(".od").text();
     
     var tryit =$(this).siblings("p").children(".se").text().replace('$','');
     var dicound=parseInt(tryit)-1;
+    var x= localStorage.setItem("myitem1",img1);
+    var g=localStorage.setItem("kk1",count1.toString());
+       
+    
+    b=localStorage.getItem("myitem1");
     $(".jsdiv2").fadeIn();
     
   /*  if(! ($(".jsdiv2").children(".divme").children("ul").hasClass("uu"))&&count1>0)
@@ -196,11 +242,17 @@ var count2= 0;
 $(".jsbut2").on('click',function()
 {
     count2++;
+    img1=$(this).parent().children(".origin").attr("src");
      
     var licontent=$(this).siblings("p").children(".od").text();
     
     var tryit =$(this).siblings("p").children(".se").text().replace('$','');
     var dicound=parseInt(tryit)-1;
+    var x= localStorage.setItem("myitem2",img1);
+     
+    var yy=localStorage.setItem("kk2",count2.toString());
+    
+    b=localStorage.getItem("myitem2");
    
     $(".jsdiv2").fadeIn();
   /*  if(! ($(".jsdiv2").children(".divme").children("ul").hasClass("uu"))&&count2>0)
@@ -265,16 +317,38 @@ $(".jsbut2").on('click',function()
      });
 });
 var count3= 0;
+var imm=" ";
+var b;
+//console.log(b);
+
 $(".jsbut3").on('click',function()
 {
+    img1=$(this).parent().children(".origin").attr("src");
+    console.log(img1);
     count3++;
-    console.log(count3);
+  //  console.log(count3);
+  //  imm=$("this").parent().children(".origin").attr("src");
+    //console.log(imm);
+     
+       // img1=$(this).parent().children(".origin").attr("src");
+       var x= localStorage.setItem("myitem3",img1);
+       var yyy=localStorage.setItem("kk3",count3.toString());
+       
+    
+     b=localStorage.getItem("myitem3");
+    
+    
+   //  console.log(b);
+  
+    
+       
+  //  console.log("myitem");
      
     var licontent=$(this).siblings("p").children(".od").text();
     
     var tryit =$(this).siblings("p").children(".se").text().replace('$','');
     var dicound=parseInt(tryit)-1;
-   
+    
     $(".jsdiv2").fadeIn();
    /* if(! ($(".jsdiv2").children(".divme").children("ul").hasClass("uu"))&&count3>0||$(".divme").children("ul").children("li").children(".od"))
     {
@@ -285,6 +359,7 @@ $(".jsbut3").on('click',function()
     }*/
     if(count3==1 )
     {
+        
      
     $(".divme").append('<ul class="uu"> <li> <p>'+ licontent+'</p></li> <li> <input class="in3" type="text" value='+ count3 +'</li><li> <button class="odbut3">x</button></li> <li> <span>'+ dicound +"$"+'</span></li></li></ul> ');
     $(".divme").append('<p class="odp3"> discount:$1.00</p>');
@@ -336,7 +411,7 @@ $(".jsbut3").on('click',function()
      
     
   
-  
+    
 
  /*else   {
     
@@ -364,7 +439,7 @@ $(".jsbut3").on('click',function()
     
 });
 
-
+//console.log(img1);
 
 $(".ch").on('click',function()
 {
@@ -380,15 +455,83 @@ console.log(q);
       console.log(count+count2+count3+count1);
   }  
   else{
+   // var l=  localStorage.getItem("myitem");
+   // var f=localStorage.getItem("myitem1");
+   // var e=localStorage.getItem("myitem2");
+   // var w=localStorage.getItem("myitem3");
+
     location.href="check.html";
+
+ // console.log(l);
+    
+   // $(".montg1").attr(img1);
+  
+ // $(".montg").attr("src",l);
+  
  
     
 
   }
+   
+  
 
   
 });
  
+    var x=localStorage.getItem("myitem");
+ 
+ 
+ 
+ var h=localStorage.getItem("kk");
+ //console.log("hi"+h);
+ var e=parseInt(h);
+console.log(e);
+
+ 
+  
+  
+var c=localStorage.getItem("myitem1");
+var cc=localStorage.getItem("kk1");
+var ee=parseInt(cc);
+
+var u=localStorage.getItem("myitem2");
+var uu=localStorage.getItem("kk2");
+var uuu=parseInt(uu);
+
+var q=localStorage.getItem("myitem3");
+var qq=localStorage.getItem("kk3");
+var qqq=parseInt(qq);
+ console.log(ee);
+ console.log(uuu);
+ console.log(qqq);
+//console.log(p);
+for(var i=0;i<1;i++){
+    if(e>=1){
+$(".check .montg").append('<img class="don" src='+x+'>');
+localStorage.removeItem("kk");
+    }
+}
+for(var i=0;i<1;i++){
+    if(ee>=1){
+        $(".check .montg").append('<img class="don" src='+c+'>');
+        localStorage.removeItem("kk1");
+            }}
+            for(var i=0;i<1;i++){
+            if(uuu>=1){
+                $(".check .montg").append('<img class="don" src='+u+'>');
+                localStorage.removeItem("kk2");
+                    }
+                }for(var i=0;i<1;i++){
+                    if(qqq>=1){
+                        $(".check .montg").append('<img class="don" src='+q+'>');
+                        localStorage.removeItem("kk3");
+                            }
+                        }
+        
+ 
 
 
+ 
 });
+
+ 
