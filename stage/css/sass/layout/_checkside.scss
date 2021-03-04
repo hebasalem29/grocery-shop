@@ -1,0 +1,81 @@
+.check{
+    .esod{
+        color: #fff;
+        background-color:#212121;
+    }
+.ch2{
+    .conba{
+      background-color: #84c639;
+      color: #fff;
+      padding: 15px;
+      border: none;
+      margin-bottom: 15px;
+      font-size: 20px;
+      width: 100%;
+
+    }
+    ul{
+        color: #999;
+        font-size: 14px;
+        li{
+            p{
+                span{
+                    float: right;
+                }
+            }
+        }
+        h4{
+            padding: 10px;
+            border-top: 1px solid #DDD;
+            border-bottom: 1px solid #DDD;
+            color: #000;
+            span{
+                float: right;
+            }
+            
+        }
+    }
+    .second{
+        h4{
+            margin-bottom: 20px;
+        }
+    form{
+
+        input{
+        display: block;
+        width: 100%;
+        border: none;
+        color: #212121;
+        background-color: #fff;
+        border: 1px solid #e7e7e7;
+        margin-bottom: 15px;
+        }
+        .le
+        {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            width: 50%;
+            background-color: #84c639;
+            color: #fff;
+            font-size: 20px;
+            padding: 15px;
+
+        }
+        .ri{
+            float: right;
+            width:40%;
+            background-color: #212121;
+            color: #fff;
+            font-size: 20px;
+            padding: 15px;
+            &:hover{
+                background-color: #84c639;
+            }
+        }
+        label{
+            font-weight: bold;
+        }
+    }
+    }
+}}

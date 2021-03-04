@@ -480,7 +480,10 @@ console.log(q);
  
     var x=localStorage.getItem("myitem");
  
- 
+ var n=1;
+ var nn=1;
+  var nnn=1;
+  var nnnn=1;
  
  var h=localStorage.getItem("kk");
  //console.log("hi"+h);
@@ -505,33 +508,143 @@ var qqq=parseInt(qq);
  console.log(uuu);
  console.log(qqq);
 //console.log(p);
+var m=1;
 for(var i=0;i<1;i++){
     if(e>=1){
-$(".check .montg").append('<img class="don" src='+x+'>');
+        $(".check .montg .kk ").append(' <tr class="tr4"> <td>' +m+'</td> <td> <img class="don" src='+x+'> </td> <td><button class="bb"><i class="fas fa-minus"></i></button><button class="th">'+n+'</button> <button class="bbb"><i class="fas fa-plus"></i></button></td> <td> Fortune Sunflower Oil</td> <td> $290.00</td><td class="td4"><i class="fas fa-times"></i></td></tr>')
+//$(".check .montg").append('<img class="don" src='+x+'>');
 localStorage.removeItem("kk");
+m++;
+$(".td4").on('click',function()
+{
+    $(".tr4").remove();
+})
+$(".bb").on('click',function()
+{
+   
+    console.log("...");
+    console.log(n);
+    if(n>1){
+
+        n--;
+        $(this).siblings(".th").text(n);
+        }
+})
+$(".bbb").on('click',function()
+{
+    n++;
+    
+    $(this).siblings(".th").text(n);
+        
+  
+})
+
     }
 }
+
 for(var i=0;i<1;i++){
+    
     if(ee>=1){
-        $(".check .montg").append('<img class="don" src='+c+'>');
+        $(".check .montg  .kk").append(' <tr class="tr3"> <td>' +m+'</td> <td> <img class="don" src='+c+'> </td> <td><button class="bb1"><i class="fas fa-minus"></i></button><button class="th1">'+nn+'</button> <button class="bbb1"><i class="fas fa-plus"></i></button></td> <td>Basmati Rise (5 Kg)</td> <td> $290.00</td><td class="td3"><i class="fas fa-times"></i></td></tr>')
+        //$(".check .montg").append('<img class="don" src='+c+'>');
         localStorage.removeItem("kk1");
+        
+        m++;
+        $(".td3").on('click',function()
+        {
+            $(".tr3").remove();
+        })
+        $(".bb1").on('click',function()
+{
+   
+    console.log("...");
+    console.log(n);
+    if(nn>1){
+
+        nn--;
+        $(this).siblings(".th1").text(nn);
+        }
+})
+$(".bbb1").on('click',function()
+{
+    nn++;
+    
+        
+    $(this).siblings(".th1").text(nn);
+        
+  
+})
             }}
             for(var i=0;i<1;i++){
             if(uuu>=1){
-                $(".check .montg").append('<img class="don" src='+u+'>');
+                $(".check .montg .kk ").append(' <tr class="tr1"> <td>' +m+'</td> <td> <img class="don" src='+u+'> </td> <td><button class="bb2"><i class="fas fa-minus"></i></button><button class="th2">'+nnn+'</button> <button class="bbb2"><i class="fas fa-plus"></i></button></td><td>Pepsi Soft Drink (2 Ltr)</td> <td> $290.00</td><td class="td1"><i class="fas fa-times"></i></td></tr>')
+               // $(".check .montg").append('<img class="don" src='+u+'>');
                 localStorage.removeItem("kk2");
+                m++;
+                $(".td1").on('click',function()
+                {
+                    $(".tr1").remove();
+                })
+                $(".bb2").on('click',function()
+{
+   
+    console.log("...");
+    console.log(n);
+    if(nnn>1){
+
+        nnn--;
+        $(this).siblings(".th2").text(nnn);
+        }
+})
+$(".bbb2").on('click',function()
+{
+    nnn++;
+    
+        
+    $(this).siblings(".th2").text(nnn);
+        
+  
+})
                     }
                 }for(var i=0;i<1;i++){
                     if(qqq>=1){
-                        $(".check .montg").append('<img class="don" src='+q+'>');
+                        $(".check .montg .kk ").append(' <tr class="tr2"> <td>' +m+'</td> <td> <img class="don" src='+q+'> </td> <td><button class="bb3"><i class="fas fa-minus"></i></button><button class="th3">'+nnnn+'</button> <button class="bbb3"><i class="fas fa-plus"></i></button></td> <td>dogs food</td> <td> $290.00</td><td class="td2"><i class="fas fa-times"></i></td></tr>')
+
+                      //  $(".check .montg").append('<img class="don" src='+q+'>');
                         localStorage.removeItem("kk3");
+                        m++;
+                        $(".td2").on('click',function()
+                        {
+                            $(".tr2").remove();
+                        })
+                        $(".bb3").on('click',function()
+{
+   
+    console.log("...");
+    console.log(nnnn);
+    if(nnnn>1){
+
+        nnnn--;
+        $(this).siblings(".th3").text(nnnn);
+        }
+})
+$(".bbb3").on('click',function()
+{
+    nnnn++;
+    
+        
+        $(this).siblings(".th3").text(nnnn);
+        
+
+})
                             }
+            
                         }
+                        
         
  
 
 
- 
+
 });
 
- 
