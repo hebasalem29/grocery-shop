@@ -1,0 +1,154 @@
+.payment{
+    padding: 120px;
+    ul{
+        margin-top: 80px;
+        padding-left: 50px;
+        li{
+        display: inline-block;
+        button{
+            padding: 17px;
+            background-color:  rgb(245, 245, 245);
+            border-color: rgb(193, 193, 193);
+            border: none;
+            font-size: 20px;
+             border: none;
+            }
+            
+        }
+        .bn{
+            background-color: #212121;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+       
+        }
+      
+    }
+    .not1{
+        border: 1px solid #000;
+        margin-left: 50px;
+        padding: 30px;
+        margin-top: -17px;
+         
+    .re1{
+        display: flex;
+       
+       
+        .re{
+            width: 20px;
+            height: 20px;
+            background-color: #f00;
+            margin-right: 12px;
+        }
+    }
+}
+.not2{
+    border: 1px solid #000;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: -17px;
+    
+    form{
+        input{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        }
+        label{
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        button{
+            width: 60%;
+            border: none;
+            background-color: #84c639;
+            color: #fff;
+            padding: 15px;
+            font-size: 20px;
+        }
+    } 
+}
+.not3{
+    form{
+        padding-left: 50px;
+        
+        border: 1px solid #000;
+        margin-top: -17px;
+
+        label{
+          //  padding-left: 20px;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        p{
+            display: inline;
+            margin-right: 60px;
+            font-size: 20px;
+            
+            
+        }
+        select{
+            padding: 10px;
+            opacity: .7;
+        }
+        input[type="button"]
+        {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #84c639;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            font-size: 20px;
+        }
+    }
+}
+.notactive{
+    display: none;
+}
+.not4{
+    margin-top: -17px;
+    .form1{
+        border: 1px solid #000;
+        .po{
+            background-color:#3a5795 ;
+            border: none;
+            padding: 10px;
+            color: #fff;
+        }
+
+        form{
+            margin: 15px;
+            input[type="text"]
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 15px;
+
+            }
+            
+            button{
+
+                margin-bottom: 15px;
+                width: 40%;
+                display: block;
+                border: none;
+                background-color: #84c639;
+                padding: 10px;
+                color: #fff;
+            }
+            input[type="checkbox"]
+            {
+                margin-right: 10px;
+                margin-bottom: 15px;
+            }
+            label{
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

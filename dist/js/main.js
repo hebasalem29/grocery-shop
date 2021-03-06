@@ -642,9 +642,38 @@ $(".bbb3").on('click',function()
                         }
                         
         
+ $(".ko").on('click',function()
+ {
+     $(this).siblings().children().removeClass("bn");
+     $(this).children("button").addClass("bn");
+     if($(this).hasClass("num2"))
+     {
+         
+         $(".not2").removeClass("notactive");
+         $(".not2").siblings().addClass("notactive");
+     }
+     if($(this).hasClass("num1"))
+     {
+         
+         $(".not1").removeClass("notactive");
+         $(".not1").siblings().addClass("notactive");
+     }
+     if($(this).hasClass("num3"))
+     {
+         
+         $(".not3").removeClass("notactive");
+         $(".not3").siblings().addClass("notactive");
+     }
+     if($(this).hasClass("num4"))
+     {
+         
+         $(".not4").removeClass("notactive");
+         $(".not4").siblings().addClass("notactive");
+     }
+   
+ })
+
+
  
-
-
-
 });
 

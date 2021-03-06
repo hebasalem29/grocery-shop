@@ -49,5 +49,80 @@
                             a.ch.dropdown-item(href="frozen.html") frozen nonveg
             li.fi 
                 a(href="bread.html") bread&bakery
-    .col-lg-10.bestall.col-md-10
+    .col-lg-10.bestall.col-md-10.payment
+        .container
+            h3.text-center payment
+
+            ul.list-unstyled
+                li.ko.num1
+                    button.bn cash on delivry(cod) 
+
+                li.ko.num2 
+                    button credit/debit
+                li.ko.num3  
+                    button net banking
+                li.ko.num4  
+                    button paypal account
+            .not        
+                .not1 
+                    h4 cod
+                    .re1
+                        .re
+
+                        p We also accept Credit/Debit card on delivery. Please Check with the agent.
+                .not2.notactive
+                    form
+                        label Name on Card
+                        input(type="text",placeholder="john smith")
+                        label card number
+                        input(type="text" placeholder="... .... ....")
+                        label cvv
+                        input(type="text" placeholder="...")
+                        label experation date
+                        input(type="text" placeholder="mm/yy")
+                        button make a payment
+                .not3.notactive
+                    form
+                        label Select From Popular Banks
+                        input(type="radio" checked="true" name="radio")
+                        p Syndicate Bank
+                        input(type="radio" name="radio") 
+                        p Bank of Baroda
+                        input(type="radio" name="radio")
+                        p Canara Bank
+                        input(type="radio" name="radio") 
+                        p ICICI Bank
+                        input(type="radio" name="radio")  
+                        p State Bank Of India
+                        label Or SELECT OTHER BANK
+                        Select 
+                            option(value="siab bank1") ==other bankes==
+                            option(value="siab bank") siab bank
+                            option(value="egypt bank") egypt bank
+                            option(value="national bank") national bank
+                        input(type="button" value="pay now") 
+                .not4.notactive
+                
+                        
+                    .form1
+                        
+                            
+                        .container
+                            .row
+                                    .col-lg-6
+                                        img.img-fluid(src="imgs/paypal.png")
+                                        p Important: You will be redirected to PayPal's website to securely complete your payment.
+                                        button.po checkout via paypal
+                                    .col-lg-6
+                                        form
+                                            label Card Number
+                                            input(type="text" placeholder="xxxx  xxxx  xxxx xxxx")
+                                            label cvv
+                                            input(type="text" placeholder="card holder name")
+                                            label valid thru
+                                            input(type="text" placeholder="mm/yy")
+                                            input(type="checkbox" checked="true")
+                                            |Add to My Cards
+                                            button proceed payment
+
     
