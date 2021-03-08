@@ -172,7 +172,11 @@ padding-left: 40px;
     margin-top: 40px;
     a{
       color: #212121;
+      &:hover{
+        color: #f00;
+      }
     }
+   
 
   };
 }

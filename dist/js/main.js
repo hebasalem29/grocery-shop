@@ -441,7 +441,7 @@ $(".jsbut3").on('click',function()
 
 //console.log(img1);
 
-$(".ch").on('click',function()
+$(".chh").on('click',function()
 {
 
     console.log(count+count2+count3+count1);
